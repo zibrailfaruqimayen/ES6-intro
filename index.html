@@ -13,30 +13,35 @@
     <main>
       <section class="friends">
         <!-- .friend*5>h3.friend-name{friend-$}+p>lorem5 -->
-        <div class="friend">
-          <h3 class="friend-name">friend-1</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="friend">
-          <h3 class="friend-name">friend-2</h3>
-          <p>Vero dicta hic totam blanditiis.</p>
-        </div>
-        <div class="friend">
-          <h3 class="friend-name">friend-3</h3>
-          <p>Maxime molestias neque accusamus aliquam?</p>
-        </div>
-        <div class="friend">
-          <h3 class="friend-name">friend-4</h3>
-          <p>Vel, mollitia. Culpa, animi laborum.</p>
-        </div>
-        <div class="friend">
-          <h3 class="friend-name">friend-5</h3>
-          <p>Unde aut incidunt omnis modi.</p>
+        <div id="friends">
+          <div class="friend">
+            <h3 class="friend-name">friend-1</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="friend">
+            <h3 class="friend-name">friend-2</h3>
+            <p>Vero dicta hic totam blanditiis.</p>
+          </div>
+          <div class="friend">
+            <h3 id="third-friend" class="friend-name">friend-3</h3>
+            <p>Maxime molestias neque accusamus aliquam?</p>
+          </div>
+          <div class="friend">
+            <h3 class="friend-name">friend-4</h3>
+            <p>Vel, mollitia. Culpa, animi laborum.</p>
+          </div>
+          <div class="friend">
+            <h3 class="friend-name">friend-5</h3>
+            <p>Unde aut incidunt omnis modi.</p>
+          </div>
         </div>
         <div class="operations">
           <button id="apply-bg">Apply Background</button>
+          <button id="center-third">Center the Third</button>
+          <button id="add-friend">Add New Friend</button>
         </div>
       </section>
     </main>
+    <script src="js/dom.js"></script>
   </body>
 </html>
